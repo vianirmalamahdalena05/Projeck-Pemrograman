@@ -48,7 +48,7 @@ Program memulai loop tak terbatas yang meminta pengguna untuk memilih menu makan
 
 ### Tampilan Menu dan Input Pengguna:
 ``` python
-Copy code
+
 for key, value in menu.items():
     print(f"{key}: Rp{value}")
 pilihan = input("Masukkan pilihan Anda (tekan s untuk selesai): ")
